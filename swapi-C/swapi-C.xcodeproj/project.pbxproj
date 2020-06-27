@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93BD23EF24A53D5500AD9A6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD23EE24A53D5500AD9A6C /* AppDelegate.m */; };
+		93BD23F224A53D5500AD9A6C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD23F124A53D5500AD9A6C /* SceneDelegate.m */; };
+		93BD23F824A53D5500AD9A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BD23F624A53D5500AD9A6C /* Main.storyboard */; };
+		93BD23FA24A53D5700AD9A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BD23F924A53D5700AD9A6C /* Assets.xcassets */; };
+		93BD23FD24A53D5700AD9A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BD23FB24A53D5700AD9A6C /* LaunchScreen.storyboard */; };
+		93BD240024A53D5700AD9A6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD23FF24A53D5700AD9A6C /* main.m */; };
+		93BD241724A559CC00AD9A6C /* BJWMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD241624A559CC00AD9A6C /* BJWMovie.m */; };
+		93BD241A24A55D6C00AD9A6C /* BJWMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD241924A55D6C00AD9A6C /* BJWMovieController.m */; };
+		93BD248F24A6C14000AD9A6C /* BJWMovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BD248E24A6C14000AD9A6C /* BJWMovieTableViewController.swift */; };
+		93BD249324A6C20500AD9A6C /* BJWMovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BD249224A6C20500AD9A6C /* BJWMovieTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93BD23EA24A53D5500AD9A6C /* swapi-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swapi-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BD23ED24A53D5500AD9A6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93BD23EE24A53D5500AD9A6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93BD23F024A53D5500AD9A6C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		93BD23F124A53D5500AD9A6C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		93BD23F724A53D5500AD9A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93BD23F924A53D5700AD9A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93BD23FC24A53D5700AD9A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93BD23FE24A53D5700AD9A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93BD23FF24A53D5700AD9A6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93BD241524A559CC00AD9A6C /* BJWMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJWMovie.h; sourceTree = "<group>"; };
+		93BD241624A559CC00AD9A6C /* BJWMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJWMovie.m; sourceTree = "<group>"; };
+		93BD241824A55D6C00AD9A6C /* BJWMovieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJWMovieController.h; sourceTree = "<group>"; };
+		93BD241924A55D6C00AD9A6C /* BJWMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJWMovieController.m; sourceTree = "<group>"; };
+		93BD248D24A6C13F00AD9A6C /* swapi-C-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swapi-C-Bridging-Header.h"; sourceTree = "<group>"; };
+		93BD248E24A6C14000AD9A6C /* BJWMovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJWMovieTableViewController.swift; sourceTree = "<group>"; };
+		93BD249224A6C20500AD9A6C /* BJWMovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJWMovieTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93BD23E724A53D5500AD9A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93BD23E124A53D5500AD9A6C = {
+			isa = PBXGroup;
+			children = (
+				93BD23EC24A53D5500AD9A6C /* swapi-C */,
+				93BD23EB24A53D5500AD9A6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93BD23EB24A53D5500AD9A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BD23EA24A53D5500AD9A6C /* swapi-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93BD23EC24A53D5500AD9A6C /* swapi-C */ = {
+			isa = PBXGroup;
+			children = (
+				93BD240724A53DB500AD9A6C /* Models */,
+				93BD240824A53DBE00AD9A6C /* Controllers */,
+				93BD240924A53DC200AD9A6C /* Views */,
+				93BD240624A53D6400AD9A6C /* Resources */,
+			);
+			path = "swapi-C";
+			sourceTree = "<group>";
+		};
+		93BD240624A53D6400AD9A6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93BD23ED24A53D5500AD9A6C /* AppDelegate.h */,
+				93BD23EE24A53D5500AD9A6C /* AppDelegate.m */,
+				93BD23F024A53D5500AD9A6C /* SceneDelegate.h */,
+				93BD23F124A53D5500AD9A6C /* SceneDelegate.m */,
+				93BD23F924A53D5700AD9A6C /* Assets.xcassets */,
+				93BD23FB24A53D5700AD9A6C /* LaunchScreen.storyboard */,
+				93BD23FE24A53D5700AD9A6C /* Info.plist */,
+				93BD23FF24A53D5700AD9A6C /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93BD240724A53DB500AD9A6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93BD241524A559CC00AD9A6C /* BJWMovie.h */,
+				93BD241624A559CC00AD9A6C /* BJWMovie.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93BD240824A53DBE00AD9A6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93BD240B24A53DCC00AD9A6C /* ModelControllers */,
+				93BD240A24A53DC600AD9A6C /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		93BD240924A53DC200AD9A6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93BD249024A6C1D500AD9A6C /* CustomViews */,
+				93BD23F624A53D5500AD9A6C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93BD240A24A53DC600AD9A6C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93BD248E24A6C14000AD9A6C /* BJWMovieTableViewController.swift */,
+				93BD248D24A6C13F00AD9A6C /* swapi-C-Bridging-Header.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		93BD240B24A53DCC00AD9A6C /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93BD241824A55D6C00AD9A6C /* BJWMovieController.h */,
+				93BD241924A55D6C00AD9A6C /* BJWMovieController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		93BD249024A6C1D500AD9A6C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				93BD249224A6C20500AD9A6C /* BJWMovieTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93BD23E924A53D5500AD9A6C /* swapi-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BD240324A53D5700AD9A6C /* Build configuration list for PBXNativeTarget "swapi-C" */;
+			buildPhases = (
+				93BD23E624A53D5500AD9A6C /* Sources */,
+				93BD23E724A53D5500AD9A6C /* Frameworks */,
+				93BD23E824A53D5500AD9A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swapi-C";
+			productName = "swapi-C";
+			productReference = 93BD23EA24A53D5500AD9A6C /* swapi-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93BD23E224A53D5500AD9A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BJW;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Bryan Workman";
+				TargetAttributes = {
+					93BD23E924A53D5500AD9A6C = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 93BD23E524A53D5500AD9A6C /* Build configuration list for PBXProject "swapi-C" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93BD23E124A53D5500AD9A6C;
+			productRefGroup = 93BD23EB24A53D5500AD9A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BD23E924A53D5500AD9A6C /* swapi-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93BD23E824A53D5500AD9A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BD23FD24A53D5700AD9A6C /* LaunchScreen.storyboard in Resources */,
+				93BD23FA24A53D5700AD9A6C /* Assets.xcassets in Resources */,
+				93BD23F824A53D5500AD9A6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BD23E624A53D5500AD9A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BD248F24A6C14000AD9A6C /* BJWMovieTableViewController.swift in Sources */,
+				93BD249324A6C20500AD9A6C /* BJWMovieTableViewCell.swift in Sources */,
+				93BD241A24A55D6C00AD9A6C /* BJWMovieController.m in Sources */,
+				93BD241724A559CC00AD9A6C /* BJWMovie.m in Sources */,
+				93BD23EF24A53D5500AD9A6C /* AppDelegate.m in Sources */,
+				93BD240024A53D5700AD9A6C /* main.m in Sources */,
+				93BD23F224A53D5500AD9A6C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93BD23F624A53D5500AD9A6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BD23F724A53D5500AD9A6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93BD23FB24A53D5700AD9A6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BD23FC24A53D5700AD9A6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93BD240124A53D5700AD9A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93BD240224A53D5700AD9A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93BD240424A53D5700AD9A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYXP9477KA;
+				INFOPLIST_FILE = "swapi-C/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanworkman.swapi-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swapi-C/Controllers/ViewControllers/swapi-C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93BD240524A53D5700AD9A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYXP9477KA;
+				INFOPLIST_FILE = "swapi-C/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanworkman.swapi-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swapi-C/Controllers/ViewControllers/swapi-C-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93BD23E524A53D5500AD9A6C /* Build configuration list for PBXProject "swapi-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BD240124A53D5700AD9A6C /* Debug */,
+				93BD240224A53D5700AD9A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BD240324A53D5700AD9A6C /* Build configuration list for PBXNativeTarget "swapi-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BD240424A53D5700AD9A6C /* Debug */,
+				93BD240524A53D5700AD9A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93BD23E224A53D5500AD9A6C /* Project object */;
+}
